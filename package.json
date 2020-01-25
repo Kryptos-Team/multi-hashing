@@ -1,0 +1,31 @@
+{
+    "name": "multi-hashing",
+    "version": "0.0.1",
+    "main": "multihashing",
+    "author": {
+        "name": "Abhimanyu Saharan",
+        "email": "desk.abhimnyu@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Kryptos-Team/multi-hashing.git"
+    },
+    "dependencies": {
+        "bindings": "^1.5.0"
+    },
+    "keywords": [
+        "scrypt",
+        "scryptjane",
+        "script-n",
+        "x11",
+        "quark",
+        "keccak_hash",
+        "skein",
+        "bcrypt",
+        "keccak",
+        "blake",
+        "shavite",
+        "fugue",
+        "sha1"
+    ]
+}
