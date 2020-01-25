@@ -8,3 +8,11 @@ node_js:
 - '8'
 - '9'
 - '10'
+deploy:
+  provider: npm
+  email: desk.abhimanyu@gmail.com
+  api_key:
+    secure: lnB/3skFnH148XlbewtlK3vQ4eQKPWZSEhe5V+Din30qzKMftgJRwkOa3xrYuLhbG9ouS0ofMGl/sdg97tRAO9PUwFf866M0zCclkUy58hcZhVcbZgSnjz5lsUAAjuzCdEiIkOqikLGswhUUhYOtpCNYb3lPzApYq2dfYHImTzK+I4OAG35orGyTJHtrgO8QiTCnCaXW0EJYJCMNnR2EWlncRwT6UgJczeVKw4Drz7yDombrEDW1O7JR4UwHb9d9p1Y3tWW9Qs8+kXKsP7udLu+lLpvTvHHv4wi+T+MbQ5BpZhf2IsX3sf3WXLJeggCNe0PstPL6/IgjZKJZG66+77VABrdbiPg0CIa5FBNJ4LXM61HBHrVkDuV5RQT7oMG8yJHfcoHt8HyyTSywzUq1uCvft2N/F+JfOZ8zPcJ3heXSmSHKeKe3etZDA4fbIQPBHvs4iZMLVNnIjU0Xy4gdul2bwxq8Z1xhbrU9c1IQ1o/Ryh3ehdbpF3sA7eqfhyHcgA6snLwOahwS6xsZ2XLvBn+bgSAYmNeBaF9cXHvgqTdL0Vmh+6TrDNlfgAIKOQ7wJeQq14fOoejWNSq4/czff89nD4Db4W4qGdfquBP9wNchc+b1NyhgoFFWpDnHEXT/u4cPv2wBTAmrP2rnxolLsdKNr/HO833EX2J69yQRG1I=
+  on:
+    tags: true
+    repo: Kryptos-Team/multi-hashing
